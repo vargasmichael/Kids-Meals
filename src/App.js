@@ -14,7 +14,7 @@ function App () {
   const [description, setdescription] = useState("")
   const [meal, setmeal] = useState("")
   
-  const [dishes, setdishes] = useState([])
+  const [dishes, setDishes] = useState([])
 
   const [isDarkMode, setIsDarkMode] = useState(true);
 
@@ -22,29 +22,17 @@ function App () {
   useEffect(() => { 
     fetch("http://localhost:3000/meals")
     .then((r)=> r.json())
-    .then(setdishes)
+    .then(setDishes)
     // console.log(setdishes)
     
   },[]);
 
-  // function setmeal(){
-  //   fetch("http://localhost:6001/plants",
-  //     {
-  //       method:"POST",
-  //       headers:
-  //       {
-  //         "Content-Type": "application/json"
-  //       },
-  //       body: JSON.stringify(plantobj)
-  //     }
-  //   )
-  //   .then(r=>r.json())
-  //   .then(newplant => {
-  //     const newplantsarr=[...plants,newplant]
-  //     setplants(newplantsarr)
-  //   })
-  // }
+  function onaddMeals(newDish){
+    setDishes([...dishes, newDish])
+  }
+  //this is so we can add the new input to the array. 
 
+  
 
   const onToggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
@@ -56,7 +44,7 @@ function App () {
           <Routes>
             <Route  path="/" element={<Home />} />
             <Route  path="/meallist" element={<Meallist dishes={dishes}/>} />
-            <Route  path="/mealform" element={<MealForm name={name} image={image} description={description} meal={meal} setname={setname} setimage={setimage} setdescription={setdescription} setmeal={setmeal} />} />
+            <Route  path="/mealform" element={<MealForm name={name} image={image} description={description} meal={meal} setname={setname} setimage={setimage} setdescription={setdescription} setmeal={setmeal} onaddMeals={onaddMeals} />} />
           </Routes>
       </div>
 

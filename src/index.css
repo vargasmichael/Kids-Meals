@@ -1,3 +1,5 @@
+:root{}
+
 .card {
   
   border-radius: 4px;
@@ -30,4 +32,23 @@ p {
   font-size: 16px;
   color: #555;
 }
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  border: 2px solid var(--dark-turquoise);
+  padding: 1.75rem;
+}
 
+.App {
+  color: var(--color);
+  background-color: var(--background);
+  min-height: 100vh;
+}
+
+.App.light {
+  --color: var(--black);
+  --background: var(--white);
+  --primary: var(--dark-turquoise);
+}

@@ -34,7 +34,7 @@ function Meallist({dishes}) {
     }
 
   });
-  console.log(filteredDishes)
+  //console.log(filteredDishes)
 
   const dishesArray = filteredDishes.map((dish) => {
     //console.log(dishes)

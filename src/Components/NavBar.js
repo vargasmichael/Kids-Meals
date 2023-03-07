@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom"
 
 
 
-function  NavBar  () {
-  // const buttonTextContent = isDarkMode ? "Light Mode" : "Dark Mode";
+  const NavBar = ({ isDarkMode, onToggleDarkMode }) => {
+ const buttonTextContent = isDarkMode ? "Light Mode" : "Dark Mode";
   return (
     <header className="navigation">
       <h1 className="branding" >
@@ -14,19 +14,14 @@ function  NavBar  () {
       </NavLink>
       </h1>
      <nav>
-      <NavLink  exact to=  "/meals" className="button">
-        <span className="meals"> </span>
+      <NavLink  exact to=  "/meallist" className="button">
+        <span className="meallist"> </span>
         Meal List
-      </NavLink>
-      <NavLink exact to="/mealcard" className="button">
-         MealCard
-         {/* do I need this one? or do I want the card to do a "quick preview" on the meals page */}
       </NavLink>
       <NavLink  exact to="/mealform" className="button">
          MealForm
       </NavLink>
-
-      {/* <button onClick={onToggleDarkMode}>{buttonTextContent}</button> */}
+      <button onClick={onToggleDarkMode}>{buttonTextContent}</button>
     </nav>
   </header>
   );

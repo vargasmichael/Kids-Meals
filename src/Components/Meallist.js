@@ -6,7 +6,21 @@ import "./3-meal-list.css"
 
 
 
-function Meallist({dishes}) {
+function Meallist({dishes, setDishes}) {
+
+  function handleDeleteClick(id) {
+    fetch(`http://localhost:3000/meals/${id}`, {
+      method: "DELETE",
+    })
+      .then((r) => r.json())
+      .then(() => {
+        console.log(dishes);
+      });
+      //d=add functionality to filter our dishes based on the id, returning only the dishes
+      const updatedDishes = dishes.filter((oneDish) => oneDish.id !== id)
+      setDishes(updatedDishes)
+  }
+
   const [selectedOption, setSelectedOption] = useState("All");
 
   const options = ["All", "Breakfast", "Snack", "Lunch", "Dinner"];
@@ -23,13 +37,15 @@ function Meallist({dishes}) {
 
   const dishesArray = filteredDishes.map((dish) => {
     //console.log(dishes)
-    return <MealCard key={dish.id} dishes={dish}/>
+    return <MealCard key={dish.id} dishes={dish} handleDeleteClick={handleDeleteClick} />
   });
 
   const handleOptionChange = (event) => {
     setSelectedOption(event.target.value);
   }
 
+
+  
 
   return (
     <div className="meal-list">
@@ -41,12 +57,10 @@ function Meallist({dishes}) {
           <option key={option} value={option}>{option}</option>
         ))}
       </select>
-      <div className='card-container'> 
-
+       </div>
       {dishesArray}
-      </div>
     </div>
-    </div>
+   
     
   )
 }

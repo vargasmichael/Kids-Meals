@@ -1,27 +1,6 @@
 {
   "meals": [
     {
-      "id": 1,
-      "name": "Pancakes",
-      "description": "Warm fluffy glutenous goodness served with warm tree blood",
-      "image": "https://img.freepik.com/premium-photo/stack-homemade-pancakes-with-fresh-berries_79782-328.jpg?size=626&ext=jpg&ga=GA1.1.2059021717.1678213677&semt=sph",
-      "category": "Breakfast"
-    },
-    {
-      "id": 2,
-      "name": "Oatmeal",
-      "description": "Instant oats with peanut butter and chocolate chips.",
-      "image": "https://img.freepik.com/free-photo/delicious-cereals-yogurt_23-2148654596.jpg?size=626&ext=jpg&ga=GA1.1.2059021717.1678213677&semt=sph",
-      "category": "Breakfast"
-    },
-    {
-      "id": 3,
-      "name": "Fruit",
-      "description": "An assorment of any fruit that your child will eat.",
-      "image": "https://img.freepik.com/free-photo/top-view-different-fruits-composition-fresh-sliced-fruits-dark-background-health-ripe-fresh-fruits-mellow_140725-116442.jpg?size=626&ext=jpg&ga=GA1.1.2059021717.1678213677&semt=ais",
-      "category": "Breakfast"
-    },
-    {
       "id": 4,
       "name": "Peanut Butter crackers and apple",
       "description": "Freshly ground peanuts sandwiched between two artisan whole wheat crackers. Organic apple picked from the tree on the way out the door.",
@@ -87,7 +66,7 @@
     {
       "name": "Tacos",
       "image": "https://img.freepik.com/free-photo/fresh-taco_144627-38301.jpg?size=626&ext=jpg&ga=GA1.2.2059021717.1678213677&semt=sph",
-      "description": "Delicious Tacos",
+      "description": "Delicious Tacos on homemade corn tortillas filled with overnight smoked pork. Topped with a mango chile slaw. Served with Doritos. ¡Muy aúthentico!",
       "category": "Dinner",
       "id": 15
     },
@@ -97,7 +76,34 @@
       "description": "Corn juice",
       "category": "Breakfast",
       "id": 18
+    },
+    {
+      "name": "Hot Dog",
+      "image": "https://images.unsplash.com/photo-1638368593249-7cadb261e8b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdCUyMGRvZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "description": "Mystery Meat stuffed inside of an organic casing. Served in a fresh baked pretzel roll. Also, this isn't Chicago so you can put as much ketchup as you want on it!",
+      "category": "Lunch",
+      "id": 19
+    },
+    {
+      "name": "Pasta Salad",
+      "image": "https://images.unsplash.com/photo-1543161252-42609aa0e3d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGFzdGElMjBzYWxhZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "description": "Mixture of veggies and pasta tossed in a light olive oil.   ",
+      "category": "Lunch",
+      "id": 20
+    },
+    {
+      "name": "Popcorn",
+      "image": "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cG9wY29ybnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "description": "It corn that is popped. Throw some salt and butter and those bad bois. ",
+      "category": "Snack",
+      "id": 21
+    },
+    {
+      "name": "Trail Mix",
+      "image": "https://plus.unsplash.com/premium_photo-1668677227454-213252229b73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHJhaWwlMjBtaXh8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+      "description": "Have a whole lot of random stuff in your cupboard? Throw it in a bowl! Peanuts, raisins, dried fruit, stale cereal. Your kids will love it. ",
+      "category": "Snack",
+      "id": 22
     }
-    
   ]
 }

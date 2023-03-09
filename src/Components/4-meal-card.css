@@ -21,12 +21,17 @@
   border: 1px solid #000;
   border-radius: 5px;
   padding: 20px;
-  margin: 20px;
+  /* margin: 20px; */
+  
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-  display: flexwrap;
+  display: flex;
   flex-wrap: wrap;
+  
+  /* flex-direction: column; */
  
-    color: var(--color);
+  
+ 
+    /* color: var(--color); */
     /* background-color: var(--background); */
 }
 

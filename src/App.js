@@ -47,7 +47,7 @@ function App () {
           
           <Routes>
             <Route  path="/" element={<Home />} />
-            <Route  path="/meallist" element={<Meallist dishes={dishes}/>} />
+            <Route  path="/meallist" element={<Meallist dishes={dishes} setDishes={setDishes}/>}  />
             <Route  path="/mealform" element={<MealForm name={name} image={image} description={description} meal={meal} setname={setname} setimage={setimage} setdescription={setdescription} setmeal={setmeal} onaddMeals={onaddMeals} />} />
           </Routes>
       </div>

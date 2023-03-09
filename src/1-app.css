@@ -4,8 +4,5 @@
     min-height: 100vh;
   }
   
-  .App.light {
-    --color: var(--black);
-    --background: var(--white);
-    --primary: var(--dark-turquoise);
-  }
+  
+  

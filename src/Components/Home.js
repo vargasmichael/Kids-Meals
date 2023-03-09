@@ -13,31 +13,17 @@
 //   export default Home;
 
 
-import React, { useState } from "react"
+import React from "react"
 import "./1-home.css"
 
-const Home = () => {
-  const [selectedMeal, setSelectedMeal] = useState(""); // initialize selected meal to empty string
-
-  const handleSelectChange = (event) => {
-    setSelectedMeal(event.target.value); // update selected meal when dropdown value changes
-  }
+function Home (){
 
   return (
-    <div className="home">
-      <h1>Kidz Meals</h1>
-      <h2></h2>
-      {/* <label htmlFor="meallist">Choose a meal:</label>
-      <select id="meallist" value={selectedMeal} onChange={handleSelectChange}>
-        <option value="">--Select a Meal--</option>
-        <option value="Breakfast">Breakfast</option>
-        <option value="Lunch">Lunch</option>
-        <option value="Snack">Snack</option>
-        <option value="Dinner">Dinner</option>
-      </select>
-      <p>Here are you meals for: {selectedMeal}</p> */}
+  <div className="home">
+    <h1>Kidz Meals</h1>
+    
     </div>
   )
-}
+    }
 
 export default Home;

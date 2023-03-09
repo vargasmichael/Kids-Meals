@@ -5,12 +5,12 @@ import "./6-nav-bar.css"
 
 
 
-const NavBar = ({ isDarkMode, onToggleDarkMode }) => {
-  const buttonTextContent = isDarkMode ? "Light Mode" : "Dark Mode";
+const NavBar = () => {
+  
   return (
     <header className="navigation">
       
-      <nav>
+      <nav className="nav">
         <NavLink exacxt to="/" className="button" activeClassName="">
           <span className="Kidz Meals"> </span>
           Kidz Meals 
@@ -23,7 +23,7 @@ const NavBar = ({ isDarkMode, onToggleDarkMode }) => {
         <NavLink exact to="/mealform" className="button" activeClassName="">
           Meal Form
         </NavLink>
-        <button className="button-dark-mode" onClick={onToggleDarkMode}>{buttonTextContent}</button>
+        
       </nav>
     </header>
   );

@@ -39,6 +39,7 @@ function MealForm({onaddMeals}) {
       
   
         return (
+          <div className="meal-form">
           <div className="card-form">
             <h2>New Meal</h2>
             <form onSubmit={handleSubmit}>
@@ -58,6 +59,7 @@ function MealForm({onaddMeals}) {
               </select>
               <button style={{ color: "blue"}} type="submit"  >Add Meal</button>
             </form>
+          </div>
           </div>
         )
         

@@ -9,6 +9,7 @@ import "./1-app.css"
 
 
 
+
 function App () {
   const [name, setname] = useState("")
   const [image, setimage] = useState("")
@@ -40,17 +41,22 @@ function App () {
   };
 
     return (
-        <div className={isDarkMode ? "App" : "App light"}>
+      <div className="container" >
         <NavBar isDarkMode={isDarkMode} onToggleDarkMode={onToggleDarkMode} />   
+        {/* <div className={isDarkMode ? "App" : "App light"}> */}
+          
           <Routes>
             <Route  path="/" element={<Home />} />
             <Route  path="/meallist" element={<Meallist dishes={dishes}/>} />
             <Route  path="/mealform" element={<MealForm name={name} image={image} description={description} meal={meal} setname={setname} setimage={setimage} setdescription={setdescription} setmeal={setmeal} onaddMeals={onaddMeals} />} />
           </Routes>
       </div>
-
+      // </div>
     )
-  }
+    }
+    
+    
+  
 
   export default App;
 

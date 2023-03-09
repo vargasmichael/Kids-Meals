@@ -97,13 +97,7 @@
       "description": "Corn juice",
       "category": "Breakfast",
       "id": 18
-    },
-    {
-      "name": "Tacos",
-      "image": "",
-      "description": "Delicious Tacos",
-      "category": "Breakfast",
-      "id": 19
     }
+    
   ]
 }

@@ -83,7 +83,27 @@
       "description": "Day old rice fried in a pan with light soy sauce and mixed veggies. Add fortune cookie for authentic experience.",
       "image": "https://img.freepik.com/free-photo/schezwan-paneer-fried-rice-with-szechuan-sauce-cottage-cheese-cubes-served-bowl-plate-pan-selective-focus_466689-74425.jpg?size=626&ext=jpg&ga=GA1.2.2059021717.1678213677&semt=ais",
       "category": "Dinner"
+    },
+    {
+      "name": "Tacos",
+      "image": "https://img.freepik.com/free-photo/fresh-taco_144627-38301.jpg?size=626&ext=jpg&ga=GA1.2.2059021717.1678213677&semt=sph",
+      "description": "Delicious Tacos",
+      "category": "Dinner",
+      "id": 15
+    },
+    {
+      "name": "Bourbon",
+      "image": "https://whiskeyconsensus.com/wp-content/uploads/2019/09/1792-High-Rye-Bourbon-768x765.jpg",
+      "description": "Corn juice",
+      "category": "Breakfast",
+      "id": 18
+    },
+    {
+      "name": "Tacos",
+      "image": "",
+      "description": "Delicious Tacos",
+      "category": "Breakfast",
+      "id": 19
     }
-    
   ]
 }

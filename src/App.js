@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom"
 import Home from "./Components/Home";
 import Meallist from "./Components/Meallist";
 import MealForm from "./Components/MealForm";
+import "./1-app.css"
 
 
 
@@ -16,7 +17,7 @@ function App () {
   
   const [dishes, setDishes] = useState([])
 
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
 
   useEffect(() => { 

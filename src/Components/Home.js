@@ -14,6 +14,7 @@
 
 
 import React, { useState } from "react"
+import "./1-home.css"
 
 const Home = () => {
   const [selectedMeal, setSelectedMeal] = useState(""); // initialize selected meal to empty string
@@ -23,10 +24,10 @@ const Home = () => {
   }
 
   return (
-    <div>
+    <div className="home">
       <h1>Kidz Meals</h1>
-      <h2>Here are the meals you can feed your kids today!</h2>
-      <label htmlFor="meallist">Choose a meal:</label>
+      <h2></h2>
+      {/* <label htmlFor="meallist">Choose a meal:</label>
       <select id="meallist" value={selectedMeal} onChange={handleSelectChange}>
         <option value="">--Select a Meal--</option>
         <option value="Breakfast">Breakfast</option>
@@ -34,7 +35,7 @@ const Home = () => {
         <option value="Snack">Snack</option>
         <option value="Dinner">Dinner</option>
       </select>
-      <p>Here are you meals for: {selectedMeal}</p>
+      <p>Here are you meals for: {selectedMeal}</p> */}
     </div>
   )
 }

@@ -1,0 +1,27 @@
+:root {
+    --color: #fff;
+    --background: #058c98;
+    --primary: #0ff;
+  }
+  
+  @media (prefers-color-scheme: dark) {}
+    :root {
+      --color: #eee;
+      --background: rgb(47, 60, 60);
+    }
+
+.button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  .button.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+ 
+  

@@ -1,25 +1,8 @@
-// import React from "react"
-// import MealCard from "./MealCard"
 
-
-
-// const Meals = ({dishes}) => {
-//   const dishesArray = dishes.map((dish) => {
-//     console.log(dishesArray)
-//     return <MealCard key={dish.id} dish={dish}/>
-//   })
-//    return (
-//       <div>
-//         <h1>Check Out These Meals!</h1>
-//         {dishesArray}
-//       </div>
-    
-  
-//   )}
-  //export default Meals;
 
   import React, { useState } from "react"
 import MealCard from "./MealCard"
+import "./3-meal-list.css"
 
 function Meallist({dishes}) {
   const [selectedOption, setSelectedOption] = useState("All");
@@ -47,7 +30,8 @@ function Meallist({dishes}) {
 
 
   return (
-    <div>
+    <div className="meal-list">
+      <div className="meal-list-card">
       <h1>Check Out These Meals!</h1>
       <label htmlFor="category">Filter by category:</label>
       <select id="category" onChange={handleOptionChange} value={selectedOption}>
@@ -55,7 +39,11 @@ function Meallist({dishes}) {
           <option key={option} value={option}>{option}</option>
         ))}
       </select>
+      <div className='card-container'> 
+
       {dishesArray}
+      </div>
+    </div>
     </div>
   )
 }

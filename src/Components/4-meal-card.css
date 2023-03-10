@@ -1,19 +1,4 @@
-/* .card {
-    width: 20%;
-    background-color: #fff;
-    border: 1px solid #000;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-    background-color: #120c0c;
-    display: flexwrap;
-    flex-wrap: wrap;
-    
-      color: var(--color);
-      background-color: var(--background);
-    }
-    */
+
   
 .card {
   width: 20%;
@@ -22,20 +7,11 @@
   border-radius: 5px;
   padding: 20px;
   margin: 20px;
-  
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-wrap: wrap;
-  
-  /* flex-direction: column; */
- 
-  
- 
-    /* color: var(--color); */
-    /* background-color: var(--background); */
 }
-
-
+  
   .image-container {
     border: 2px solid black;
     height: 20vw;
@@ -45,6 +21,8 @@
   .card-img{
     max-width: 20vw;
     max-height: 20vw;
+    object-fit: contain;
+
   }
   
   .card-title {

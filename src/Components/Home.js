@@ -20,7 +20,7 @@ function Home (){
 
   return (
   <div className="home">
-    <h1>Kidz Meals</h1>
+   
     
     </div>
   )

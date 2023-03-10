@@ -11,12 +11,11 @@ const NavBar = () => {
     <header className="navigation">
       
       <nav className="nav">
-        <NavLink exacxt to="/" className="button" activeClassName="">
-          <span className="Kidz Meals"> </span>
+      <NavLink exacxt to="/" className="button" activeClassName="">
+       <span className="Kidz-Meals"> </span>
           Kidz Meals 
-        </NavLink>
-      
-        <NavLink exact to="/meallist" className="button" activeClassName="">
+           </NavLink>
+          <NavLink exact to="/meallist" className="button" activeClassName="">
           <span className="meallist"> </span>
           Meal List
         </NavLink>

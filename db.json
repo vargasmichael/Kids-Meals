@@ -71,13 +71,6 @@
       "id": 15
     },
     {
-      "name": "Bourbon",
-      "image": "https://whiskeyconsensus.com/wp-content/uploads/2019/09/1792-High-Rye-Bourbon-768x765.jpg",
-      "description": "Corn juice",
-      "category": "Breakfast",
-      "id": 18
-    },
-    {
       "name": "Pasta Salad",
       "image": "https://images.unsplash.com/photo-1543161252-42609aa0e3d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGFzdGElMjBzYWxhZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
       "description": "Mixture of veggies and pasta tossed in a light olive oil.   ",
@@ -111,6 +104,27 @@
       "description": "These pancakes are the best thing you ever did eat. Blueberries are the best. ",
       "category": "Breakfast",
       "id": 24
+    },
+    {
+      "name": "Waffles ",
+      "image": "https://images.unsplash.com/photo-1630936653848-61d14b90cf86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d2FmZmxlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Whether they are frozen or fresh this fan favorite should satisfy even the pickiest of eaters!",
+      "category": "Breakfast",
+      "id": 25
+    },
+    {
+      "name": "Cereal",
+      "image": "https://images.unsplash.com/photo-1610150158041-4ed238678840?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGNlcmVhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "What kid doesn't like cereal? There are so many options. Go with a traditional Honey Nut Cheerios or treat your kid to some mouth destroying Captain Crunch.",
+      "category": "Breakfast",
+      "id": 26
+    },
+    {
+      "name": "Oatmeal",
+      "image": "https://images.unsplash.com/photo-1584970922591-5b91e5f927a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8b2F0bWVhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Arguably one of the most versatile breakfast options out there. The possibilities are endless. Add fruit and brown sugar. Throw some chocolate chips in there. Spice it up with peanut butter!",
+      "category": "Breakfast",
+      "id": 27
     }
   ]
 }

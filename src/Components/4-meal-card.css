@@ -18,10 +18,10 @@
 .card {
   width: 20%;
   background-color: #fff; 
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   border-radius: 5px;
   padding: 20px;
-  /* margin: 20px; */
+  margin: 20px;
   
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -36,33 +36,41 @@
 }
 
 
-  .card-img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+  .image-container {
+    border: 2px solid black;
+    height: 20vw;
+    width: 20vw;
+  }
+
+  .card-img{
+    max-width: 20vw;
+    max-height: 20vw;
   }
   
   .card-title {
-    font-size: 20px;
+    font-size: 3vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     margin-bottom: 10px;
+    margin-top: 0;
+    padding-top: 0;
     color: #000;
   }
   
   .card-text {
     color: black;
-    font-size: 16px;
+    font-size: 1vw;
     font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
 
   }
-  .card-container {
+  .card {
     
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    border-color: red;
     border-width: 10px;
     
   }

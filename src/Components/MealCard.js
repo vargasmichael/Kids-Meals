@@ -27,7 +27,9 @@ const toggleLiked = () => {
     <div className="card" >
         <h5 className="card-title">{name}</h5>
         <p className="card-text">{description}</p>
-      <img className="card-img"  src={image} alt={name} />
+      <div className="image-container">
+        <img className="card-img"  src={image} alt={name} />
+      </div>
       <button className="del-btn" onClick={() => handleDeleteClick(id)}> All Gone</button>
       <button className="like-button" onClick={toggleLiked}> 
        {liked ? <FcLike color='blue' /> : <FcLikePlaceholder color='gray' />}
@@ -40,5 +42,7 @@ const toggleLiked = () => {
  
   );
 };
+
+
 
 export default MealCard;

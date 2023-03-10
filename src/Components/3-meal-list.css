@@ -1,19 +1,16 @@
 .meal-list {
   z-index: -1;
-  position: absolute;
+  position:absolute;
   top: 0;
   left: 0;
   
   background-image: url("https://images.unsplash.com/photo-1485745655111-3272a37e76a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODF8fGZvb2QlMjB3YWxscGFwZXIlMjByZXBlYXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
   background-repeat: repeat;
-  
-  
-}
-meal-list {
-  display: flex;
+
+  display:flex;
   /* flex-direction: column; */
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+  grid-gap: 40px;
   flex-wrap: wrap;
 }
 h1 {

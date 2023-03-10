@@ -78,13 +78,6 @@
       "id": 18
     },
     {
-      "name": "Hot Dog",
-      "image": "https://images.unsplash.com/photo-1638368593249-7cadb261e8b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdCUyMGRvZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
-      "description": "Mystery Meat stuffed inside of an organic casing. Served in a fresh baked pretzel roll. Also, this isn't Chicago so you can put as much ketchup as you want on it!",
-      "category": "Lunch",
-      "id": 19
-    },
-    {
       "name": "Pasta Salad",
       "image": "https://images.unsplash.com/photo-1543161252-42609aa0e3d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGFzdGElMjBzYWxhZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
       "description": "Mixture of veggies and pasta tossed in a light olive oil.   ",
@@ -104,6 +97,20 @@
       "description": "Have a whole lot of random stuff in your cupboard? Throw it in a bowl! Peanuts, raisins, dried fruit, stale cereal. Your kids will love it. ",
       "category": "Snack",
       "id": 22
+    },
+    {
+      "name": "Hot Dog",
+      "image": "https://images.unsplash.com/photo-1638368593249-7cadb261e8b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdCUyMGRvZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      "description": "This is a hot dog. It is very large.",
+      "category": "Lunch",
+      "id": 23
+    },
+    {
+      "name": "Pancakes",
+      "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBhbmNha2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "description": "These pancakes are the best thing you ever did eat. Blueberries are the best. ",
+      "category": "Breakfast",
+      "id": 24
     }
   ]
 }

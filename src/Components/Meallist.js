@@ -50,7 +50,7 @@ function Meallist({dishes, setDishes}) {
   return (
     <div className="meal-list">
       <div className="meal-list-card">
-      <h1>  </h1>
+      <h1></h1>
       <label htmlFor="category" >Filter by category:</label>
       <select id="category" onChange={handleOptionChange} value={selectedOption}>
         {options.map((option) => (

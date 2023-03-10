@@ -125,6 +125,13 @@
       "description": "Arguably one of the most versatile breakfast options out there. The possibilities are endless. Add fruit and brown sugar. Throw some chocolate chips in there. Spice it up with peanut butter!",
       "category": "Breakfast",
       "id": 27
+    },
+    {
+      "name": "Avocado Toast",
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YnJlYWtmYXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60 ",
+      "description": "",
+      "category": "",
+      "id": 28
     }
   ]
 }

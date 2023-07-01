@@ -25,7 +25,7 @@ function App () {
     fetch("http://localhost:3000/meals")
     .then((r)=> r.json())
     .then(setDishes)
-    // console.log(setdishes)
+    console.log(setDishes)
     
   },[]);
 
